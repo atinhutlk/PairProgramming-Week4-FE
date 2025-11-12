@@ -696,3 +696,60 @@ min-height:calc(100vh - 62px);
   margin: 20px;
   padding: 10px;
 }
+
+.registration {
+  width: 90%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+}
+
+.registration form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--clr-grey-1);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--clr-grey-8);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--clr-primary-5);
+  box-shadow: 0 0 0 3px rgba(23, 162, 184, 0.1);
+}
+
+.registration .btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+.form-row {
+  margin: 20px
+}
+
+.delete-btn {
+  margin: 10px;
+}
